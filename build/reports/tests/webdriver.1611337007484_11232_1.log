@@ -1,0 +1,313 @@
+[1611337007.572][INFO]: Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 10710
+[1611337007.572][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1611337008.167][INFO]: [57a28db9354255049eceeeb94e8db4b7] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "D:\\AutoTests\\test-project-ebay-com\\build\\downloads\\1611337007123_11232_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "D:\\AutoTests\\test-project-ebay-com\\build\\downloads\\1611337007123_11232_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1611337008.168][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "D:\\AutoTests\\test-project-ebay-com\\build\\downloads\\1611337007123_11232_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1611337008.169][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1611337008.171][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Sergey\AppData\Local\Temp\scoped_dir9596_112955842" data:,
+[1611337009.199][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1611337010.200][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1611337011.200][INFO]: [57a28db9354255049eceeeb94e8db4b7] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "87.0.4280.141",
+      "chrome": {
+         "chromedriverVersion": "87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761})",
+         "userDataDir": "C:\\Users\\Sergey\\AppData\\Local\\Temp\\scoped_dir9596_112955842"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:64219"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "57a28db9354255049eceeeb94e8db4b7"
+}
+[1611337011.223][INFO]: [57a28db9354255049eceeeb94e8db4b7] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1611337011.223][INFO]: Waiting for pending navigations...
+[1611337011.225][INFO]: Done waiting for pending navigations. Status: ok
+[1611337011.329][INFO]: Waiting for pending navigations...
+[1611337011.330][INFO]: Done waiting for pending navigations. Status: ok
+[1611337011.330][INFO]: [57a28db9354255049eceeeb94e8db4b7] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1611337011.333][INFO]: [57a28db9354255049eceeeb94e8db4b7] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1611337011.333][INFO]: [57a28db9354255049eceeeb94e8db4b7] RESPONSE SetTimeouts
+[1611337011.338][INFO]: [57a28db9354255049eceeeb94e8db4b7] COMMAND Navigate {
+   "url": "https://www.ebay.com/"
+}
+[1611337011.338][INFO]: Waiting for pending navigations...
+[1611337011.339][INFO]: Done waiting for pending navigations. Status: ok
+[1611337011.692][INFO]: Waiting for pending navigations...
+[1611337012.930][INFO]: Done waiting for pending navigations. Status: ok
+[1611337012.930][INFO]: [57a28db9354255049eceeeb94e8db4b7] RESPONSE Navigate
+[1611337012.965][INFO]: [57a28db9354255049eceeeb94e8db4b7] COMMAND FindElement {
+   "using": "link text",
+   "value": " Войдите "
+}
+[1611337012.965][INFO]: Waiting for pending navigations...
+[1611337012.965][INFO]: Done waiting for pending navigations. Status: ok
+[1611337013.058][INFO]: Waiting for pending navigations...
+[1611337013.059][INFO]: Done waiting for pending navigations. Status: ok
+[1611337013.059][INFO]: [57a28db9354255049eceeeb94e8db4b7] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":" Войдите "}
+  (Session info: chrome=87.0.4280.141)
+[1611337013.269][INFO]: [57a28db9354255049eceeeb94e8db4b7] COMMAND FindElement {
+   "using": "link text",
+   "value": " Войдите "
+}
+[1611337013.269][INFO]: Waiting for pending navigations...
+[1611337013.269][INFO]: Done waiting for pending navigations. Status: ok
+[1611337013.344][INFO]: Waiting for pending navigations...
+[1611337013.349][INFO]: Done waiting for pending navigations. Status: ok
+[1611337013.350][INFO]: [57a28db9354255049eceeeb94e8db4b7] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":" Войдите "}
+  (Session info: chrome=87.0.4280.141)
+[1611337013.554][INFO]: [57a28db9354255049eceeeb94e8db4b7] COMMAND FindElement {
+   "using": "link text",
+   "value": " Войдите "
+}
+[1611337013.554][INFO]: Waiting for pending navigations...
+[1611337013.554][INFO]: Done waiting for pending navigations. Status: ok
+[1611337013.628][INFO]: Waiting for pending navigations...
+[1611337013.629][INFO]: Done waiting for pending navigations. Status: ok
+[1611337013.629][INFO]: [57a28db9354255049eceeeb94e8db4b7] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":" Войдите "}
+  (Session info: chrome=87.0.4280.141)
+[1611337013.833][INFO]: [57a28db9354255049eceeeb94e8db4b7] COMMAND FindElement {
+   "using": "link text",
+   "value": " Войдите "
+}
+[1611337013.833][INFO]: Waiting for pending navigations...
+[1611337013.833][INFO]: Done waiting for pending navigations. Status: ok
+[1611337013.908][INFO]: Waiting for pending navigations...
+[1611337013.911][INFO]: Done waiting for pending navigations. Status: ok
+[1611337013.911][INFO]: [57a28db9354255049eceeeb94e8db4b7] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":" Войдите "}
+  (Session info: chrome=87.0.4280.141)
+[1611337014.115][INFO]: [57a28db9354255049eceeeb94e8db4b7] COMMAND FindElement {
+   "using": "link text",
+   "value": " Войдите "
+}
+[1611337014.115][INFO]: Waiting for pending navigations...
+[1611337014.784][INFO]: Done waiting for pending navigations. Status: ok
+[1611337014.864][INFO]: Waiting for pending navigations...
+[1611337014.864][INFO]: Done waiting for pending navigations. Status: ok
+[1611337014.864][INFO]: [57a28db9354255049eceeeb94e8db4b7] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":" Войдите "}
+  (Session info: chrome=87.0.4280.141)
+[1611337015.070][INFO]: [57a28db9354255049eceeeb94e8db4b7] COMMAND FindElement {
+   "using": "link text",
+   "value": " Войдите "
+}
+[1611337015.070][INFO]: Waiting for pending navigations...
+[1611337015.070][INFO]: Done waiting for pending navigations. Status: ok
+[1611337015.144][INFO]: Waiting for pending navigations...
+[1611337015.145][INFO]: Done waiting for pending navigations. Status: ok
+[1611337015.145][INFO]: [57a28db9354255049eceeeb94e8db4b7] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":" Войдите "}
+  (Session info: chrome=87.0.4280.141)
+[1611337015.348][INFO]: [57a28db9354255049eceeeb94e8db4b7] COMMAND FindElement {
+   "using": "link text",
+   "value": " Войдите "
+}
+[1611337015.348][INFO]: Waiting for pending navigations...
+[1611337015.349][INFO]: Done waiting for pending navigations. Status: ok
+[1611337015.424][INFO]: Waiting for pending navigations...
+[1611337015.424][INFO]: Done waiting for pending navigations. Status: ok
+[1611337015.424][INFO]: [57a28db9354255049eceeeb94e8db4b7] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":" Войдите "}
+  (Session info: chrome=87.0.4280.141)
+[1611337015.631][INFO]: [57a28db9354255049eceeeb94e8db4b7] COMMAND FindElement {
+   "using": "link text",
+   "value": " Войдите "
+}
+[1611337015.631][INFO]: Waiting for pending navigations...
+[1611337015.633][INFO]: Done waiting for pending navigations. Status: ok
+[1611337015.710][INFO]: Waiting for pending navigations...
+[1611337015.710][INFO]: Done waiting for pending navigations. Status: ok
+[1611337015.710][INFO]: [57a28db9354255049eceeeb94e8db4b7] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":" Войдите "}
+  (Session info: chrome=87.0.4280.141)
+[1611337015.915][INFO]: [57a28db9354255049eceeeb94e8db4b7] COMMAND FindElement {
+   "using": "link text",
+   "value": " Войдите "
+}
+[1611337015.916][INFO]: Waiting for pending navigations...
+[1611337015.916][INFO]: Done waiting for pending navigations. Status: ok
+[1611337015.990][INFO]: Waiting for pending navigations...
+[1611337015.990][INFO]: Done waiting for pending navigations. Status: ok
+[1611337015.990][INFO]: [57a28db9354255049eceeeb94e8db4b7] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":" Войдите "}
+  (Session info: chrome=87.0.4280.141)
+[1611337016.194][INFO]: [57a28db9354255049eceeeb94e8db4b7] COMMAND FindElement {
+   "using": "link text",
+   "value": " Войдите "
+}
+[1611337016.194][INFO]: Waiting for pending navigations...
+[1611337016.195][INFO]: Done waiting for pending navigations. Status: ok
+[1611337016.274][INFO]: Waiting for pending navigations...
+[1611337016.278][INFO]: Done waiting for pending navigations. Status: ok
+[1611337016.278][INFO]: [57a28db9354255049eceeeb94e8db4b7] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":" Войдите "}
+  (Session info: chrome=87.0.4280.141)
+[1611337016.482][INFO]: [57a28db9354255049eceeeb94e8db4b7] COMMAND FindElement {
+   "using": "link text",
+   "value": " Войдите "
+}
+[1611337016.482][INFO]: Waiting for pending navigations...
+[1611337016.483][INFO]: Done waiting for pending navigations. Status: ok
+[1611337016.557][INFO]: Waiting for pending navigations...
+[1611337016.557][INFO]: Done waiting for pending navigations. Status: ok
+[1611337016.557][INFO]: [57a28db9354255049eceeeb94e8db4b7] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":" Войдите "}
+  (Session info: chrome=87.0.4280.141)
+[1611337016.761][INFO]: [57a28db9354255049eceeeb94e8db4b7] COMMAND FindElement {
+   "using": "link text",
+   "value": " Войдите "
+}
+[1611337016.761][INFO]: Waiting for pending navigations...
+[1611337016.762][INFO]: Done waiting for pending navigations. Status: ok
+[1611337016.856][INFO]: Waiting for pending navigations...
+[1611337016.856][INFO]: Done waiting for pending navigations. Status: ok
+[1611337016.856][INFO]: [57a28db9354255049eceeeb94e8db4b7] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":" Войдите "}
+  (Session info: chrome=87.0.4280.141)
+[1611337017.061][INFO]: [57a28db9354255049eceeeb94e8db4b7] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1611337017.061][INFO]: Waiting for pending navigations...
+[1611337017.062][INFO]: Done waiting for pending navigations. Status: ok
+[1611337017.086][INFO]: Waiting for pending navigations...
+[1611337017.087][INFO]: Done waiting for pending navigations. Status: ok
+[1611337017.087][INFO]: [57a28db9354255049eceeeb94e8db4b7] RESPONSE ExecuteScript "\u003Chtml lang=\"ru\" class=\"font-marketsans\">\u003C!--\u003C![endif]-->\u003Chead>\u003Cstyle>\n    .font-marketsans body {\n        font-family: \"Market Sans\", Arial, sans-serif;\n    }\n\u003C/style>\u003Cscript>\n    (function() {\n   ..."
+[1611337017.146][INFO]: [57a28db9354255049eceeeb94e8db4b7] COMMAND Screenshot {
+
+}
+[1611337017.146][INFO]: Waiting for pending navigations...
+[1611337017.146][INFO]: Done waiting for pending navigations. Status: ok
+[1611337017.445][INFO]: Waiting for pending navigations...
+[1611337017.446][INFO]: Done waiting for pending navigations. Status: ok
+[1611337017.446][INFO]: [57a28db9354255049eceeeb94e8db4b7] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKkCAYAAADMauVmAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3Xl4FFW++P93EiCAQFhMQ9iDwOjQRJaAgLIYB1rnGkEYgkMMW1zuT/kiCjNwZYdEyQwZlot+LyBLiEEWEQJ+1YaZCIgQMWyhuTqAJiCQ2JFVZEtI//6oXqq6q..."
+[1611337017.495][INFO]: [57a28db9354255049eceeeb94e8db4b7] COMMAND Quit {
+
+}
+[1611337017.521][INFO]: [57a28db9354255049eceeeb94e8db4b7] RESPONSE Quit

@@ -1,0 +1,208 @@
+[1611397184.903][INFO]: Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 45681
+[1611397184.903][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1611397185.495][INFO]: [f4ae2d2abea27c5a304df4a7f5c414d3] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "D:\\AutoTests\\test-project-ebay-com\\build\\downloads\\1611397184469_6424_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "D:\\AutoTests\\test-project-ebay-com\\build\\downloads\\1611397184469_6424_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1611397185.496][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "D:\\AutoTests\\test-project-ebay-com\\build\\downloads\\1611397184469_6424_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1611397185.497][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1611397185.499][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Sergey\AppData\Local\Temp\scoped_dir5500_1162426941" data:,
+[1611397186.530][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1611397187.531][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1611397188.535][INFO]: [f4ae2d2abea27c5a304df4a7f5c414d3] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "87.0.4280.141",
+      "chrome": {
+         "chromedriverVersion": "87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761})",
+         "userDataDir": "C:\\Users\\Sergey\\AppData\\Local\\Temp\\scoped_dir5500_1162426941"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:62781"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "f4ae2d2abea27c5a304df4a7f5c414d3"
+}
+[1611397188.557][INFO]: [f4ae2d2abea27c5a304df4a7f5c414d3] COMMAND MaximizeWindow {
+
+}
+[1611397188.558][INFO]: Waiting for pending navigations...
+[1611397188.559][INFO]: Done waiting for pending navigations. Status: ok
+[1611397188.664][INFO]: Waiting for pending navigations...
+[1611397188.664][INFO]: Done waiting for pending navigations. Status: ok
+[1611397188.664][INFO]: [f4ae2d2abea27c5a304df4a7f5c414d3] RESPONSE MaximizeWindow {
+   "height": 1056,
+   "width": 1936,
+   "x": -8,
+   "y": -8
+}
+[1611397188.668][INFO]: [f4ae2d2abea27c5a304df4a7f5c414d3] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1611397188.668][INFO]: [f4ae2d2abea27c5a304df4a7f5c414d3] RESPONSE SetTimeouts
+[1611397188.672][INFO]: [f4ae2d2abea27c5a304df4a7f5c414d3] COMMAND Navigate {
+   "url": "https://www.ebay.com/"
+}
+[1611397188.672][INFO]: Waiting for pending navigations...
+[1611397188.673][INFO]: Done waiting for pending navigations. Status: ok
+[1611397189.014][INFO]: Waiting for pending navigations...
+[1611397190.395][INFO]: Done waiting for pending navigations. Status: ok
+[1611397190.395][INFO]: [f4ae2d2abea27c5a304df4a7f5c414d3] RESPONSE Navigate
+[1611397190.428][INFO]: [f4ae2d2abea27c5a304df4a7f5c414d3] COMMAND FindElement {
+   "using": "link text",
+   "value": "Электроника"
+}
+[1611397190.428][INFO]: Waiting for pending navigations...
+[1611397190.429][INFO]: Done waiting for pending navigations. Status: ok
+[1611397190.449][INFO]: Waiting for pending navigations...
+[1611397190.453][INFO]: Done waiting for pending navigations. Status: ok
+[1611397190.453][INFO]: [f4ae2d2abea27c5a304df4a7f5c414d3] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "e4d6b67f-a040-4313-a514-2624489ba0b0"
+}
+[1611397190.455][INFO]: [f4ae2d2abea27c5a304df4a7f5c414d3] COMMAND GetElementRect {
+   "id": "e4d6b67f-a040-4313-a514-2624489ba0b0"
+}
+[1611397190.455][INFO]: Waiting for pending navigations...
+[1611397190.456][INFO]: Done waiting for pending navigations. Status: ok
+[1611397190.461][INFO]: Waiting for pending navigations...
+[1611397190.461][INFO]: Done waiting for pending navigations. Status: ok
+[1611397190.461][INFO]: [f4ae2d2abea27c5a304df4a7f5c414d3] RESPONSE GetElementRect {
+   "height": 14.0,
+   "width": 72.0,
+   "x": 597.546875,
+   "y": 120.0
+}
+[1611397190.465][INFO]: [f4ae2d2abea27c5a304df4a7f5c414d3] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "window.scrollTo(597, 120)"
+}
+[1611397190.465][INFO]: Waiting for pending navigations...
+[1611397190.465][INFO]: Done waiting for pending navigations. Status: ok
+[1611397190.469][INFO]: Waiting for pending navigations...
+[1611397190.469][INFO]: Done waiting for pending navigations. Status: ok
+[1611397190.469][INFO]: [f4ae2d2abea27c5a304df4a7f5c414d3] RESPONSE ExecuteScript null
+[1611397190.474][INFO]: [f4ae2d2abea27c5a304df4a7f5c414d3] COMMAND Quit {
+
+}
+[1611397190.487][INFO]: [f4ae2d2abea27c5a304df4a7f5c414d3] RESPONSE Quit

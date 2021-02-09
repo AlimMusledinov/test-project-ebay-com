@@ -1,0 +1,345 @@
+[1611397688.801][INFO]: Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 38739
+[1611397688.801][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1611397689.412][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "D:\\AutoTests\\test-project-ebay-com\\build\\downloads\\1611397688344_9712_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "D:\\AutoTests\\test-project-ebay-com\\build\\downloads\\1611397688344_9712_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1611397689.414][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "D:\\AutoTests\\test-project-ebay-com\\build\\downloads\\1611397688344_9712_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1611397689.414][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1611397689.416][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Sergey\AppData\Local\Temp\scoped_dir3820_892623414" data:,
+[1611397690.446][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1611397691.443][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1611397692.445][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "87.0.4280.141",
+      "chrome": {
+         "chromedriverVersion": "87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761})",
+         "userDataDir": "C:\\Users\\Sergey\\AppData\\Local\\Temp\\scoped_dir3820_892623414"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:64020"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "b8d129e1d274fa08f867e163b2af0ae5"
+}
+[1611397692.468][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] COMMAND MaximizeWindow {
+
+}
+[1611397692.468][INFO]: Waiting for pending navigations...
+[1611397692.470][INFO]: Done waiting for pending navigations. Status: ok
+[1611397692.574][INFO]: Waiting for pending navigations...
+[1611397692.574][INFO]: Done waiting for pending navigations. Status: ok
+[1611397692.575][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] RESPONSE MaximizeWindow {
+   "height": 1056,
+   "width": 1936,
+   "x": -8,
+   "y": -8
+}
+[1611397692.578][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1611397692.578][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] RESPONSE SetTimeouts
+[1611397692.583][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] COMMAND Navigate {
+   "url": "https://www.ebay.com/"
+}
+[1611397692.583][INFO]: Waiting for pending navigations...
+[1611397692.583][INFO]: Done waiting for pending navigations. Status: ok
+[1611397692.947][INFO]: Waiting for pending navigations...
+[1611397694.169][INFO]: Done waiting for pending navigations. Status: ok
+[1611397694.169][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] RESPONSE Navigate
+[1611397694.202][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] COMMAND FindElement {
+   "using": "link text",
+   "value": "Электроника"
+}
+[1611397694.202][INFO]: Waiting for pending navigations...
+[1611397694.202][INFO]: Done waiting for pending navigations. Status: ok
+[1611397694.223][INFO]: Waiting for pending navigations...
+[1611397694.226][INFO]: Done waiting for pending navigations. Status: ok
+[1611397694.227][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "5f5b4f3b-f982-4644-8974-2b1ea67b37da"
+}
+[1611397694.229][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] COMMAND GetElementRect {
+   "id": "5f5b4f3b-f982-4644-8974-2b1ea67b37da"
+}
+[1611397694.229][INFO]: Waiting for pending navigations...
+[1611397694.234][INFO]: Done waiting for pending navigations. Status: ok
+[1611397694.241][INFO]: Waiting for pending navigations...
+[1611397694.241][INFO]: Done waiting for pending navigations. Status: ok
+[1611397694.241][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] RESPONSE GetElementRect {
+   "height": 14.0,
+   "width": 72.0,
+   "x": 597.546875,
+   "y": 120.0
+}
+[1611397694.245][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "window.scrollTo(597, 120)"
+}
+[1611397694.245][INFO]: Waiting for pending navigations...
+[1611397694.246][INFO]: Done waiting for pending navigations. Status: ok
+[1611397694.248][INFO]: Waiting for pending navigations...
+[1611397694.248][INFO]: Done waiting for pending navigations. Status: ok
+[1611397694.249][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] RESPONSE ExecuteScript null
+[1611397694.251][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] COMMAND FindElement {
+   "using": "link text",
+   "value": "Дроны с камерой"
+}
+[1611397694.251][INFO]: Waiting for pending navigations...
+[1611397694.252][INFO]: Done waiting for pending navigations. Status: ok
+[1611397694.338][INFO]: Waiting for pending navigations...
+[1611397694.343][INFO]: Done waiting for pending navigations. Status: ok
+[1611397694.343][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Дроны с камерой"}
+  (Session info: chrome=87.0.4280.141)
+[1611397694.554][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] COMMAND FindElement {
+   "using": "link text",
+   "value": "Дроны с камерой"
+}
+[1611397694.554][INFO]: Waiting for pending navigations...
+[1611397694.554][INFO]: Done waiting for pending navigations. Status: ok
+[1611397694.636][INFO]: Waiting for pending navigations...
+[1611397694.642][INFO]: Done waiting for pending navigations. Status: ok
+[1611397694.642][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Дроны с камерой"}
+  (Session info: chrome=87.0.4280.141)
+[1611397694.847][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] COMMAND FindElement {
+   "using": "link text",
+   "value": "Дроны с камерой"
+}
+[1611397694.847][INFO]: Waiting for pending navigations...
+[1611397694.848][INFO]: Done waiting for pending navigations. Status: ok
+[1611397694.922][INFO]: Waiting for pending navigations...
+[1611397694.922][INFO]: Done waiting for pending navigations. Status: ok
+[1611397694.922][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Дроны с камерой"}
+  (Session info: chrome=87.0.4280.141)
+[1611397695.126][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] COMMAND FindElement {
+   "using": "link text",
+   "value": "Дроны с камерой"
+}
+[1611397695.126][INFO]: Waiting for pending navigations...
+[1611397695.127][INFO]: Done waiting for pending navigations. Status: ok
+[1611397695.201][INFO]: Waiting for pending navigations...
+[1611397695.202][INFO]: Done waiting for pending navigations. Status: ok
+[1611397695.202][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Дроны с камерой"}
+  (Session info: chrome=87.0.4280.141)
+[1611397695.406][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] COMMAND FindElement {
+   "using": "link text",
+   "value": "Дроны с камерой"
+}
+[1611397695.406][INFO]: Waiting for pending navigations...
+[1611397696.073][INFO]: Done waiting for pending navigations. Status: ok
+[1611397696.150][INFO]: Waiting for pending navigations...
+[1611397696.151][INFO]: Done waiting for pending navigations. Status: ok
+[1611397696.151][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Дроны с камерой"}
+  (Session info: chrome=87.0.4280.141)
+[1611397696.355][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] COMMAND FindElement {
+   "using": "link text",
+   "value": "Дроны с камерой"
+}
+[1611397696.355][INFO]: Waiting for pending navigations...
+[1611397696.356][INFO]: Done waiting for pending navigations. Status: ok
+[1611397696.428][INFO]: Waiting for pending navigations...
+[1611397696.428][INFO]: Done waiting for pending navigations. Status: ok
+[1611397696.428][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Дроны с камерой"}
+  (Session info: chrome=87.0.4280.141)
+[1611397696.633][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] COMMAND FindElement {
+   "using": "link text",
+   "value": "Дроны с камерой"
+}
+[1611397696.633][INFO]: Waiting for pending navigations...
+[1611397696.634][INFO]: Done waiting for pending navigations. Status: ok
+[1611397696.707][INFO]: Waiting for pending navigations...
+[1611397696.707][INFO]: Done waiting for pending navigations. Status: ok
+[1611397696.707][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Дроны с камерой"}
+  (Session info: chrome=87.0.4280.141)
+[1611397696.911][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] COMMAND FindElement {
+   "using": "link text",
+   "value": "Дроны с камерой"
+}
+[1611397696.911][INFO]: Waiting for pending navigations...
+[1611397696.911][INFO]: Done waiting for pending navigations. Status: ok
+[1611397696.988][INFO]: Waiting for pending navigations...
+[1611397696.988][INFO]: Done waiting for pending navigations. Status: ok
+[1611397696.988][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Дроны с камерой"}
+  (Session info: chrome=87.0.4280.141)
+[1611397697.192][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] COMMAND FindElement {
+   "using": "link text",
+   "value": "Дроны с камерой"
+}
+[1611397697.192][INFO]: Waiting for pending navigations...
+[1611397697.193][INFO]: Done waiting for pending navigations. Status: ok
+[1611397697.267][INFO]: Waiting for pending navigations...
+[1611397697.267][INFO]: Done waiting for pending navigations. Status: ok
+[1611397697.267][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Дроны с камерой"}
+  (Session info: chrome=87.0.4280.141)
+[1611397697.475][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] COMMAND FindElement {
+   "using": "link text",
+   "value": "Дроны с камерой"
+}
+[1611397697.475][INFO]: Waiting for pending navigations...
+[1611397697.475][INFO]: Done waiting for pending navigations. Status: ok
+[1611397697.550][INFO]: Waiting for pending navigations...
+[1611397697.550][INFO]: Done waiting for pending navigations. Status: ok
+[1611397697.550][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Дроны с камерой"}
+  (Session info: chrome=87.0.4280.141)
+[1611397697.757][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] COMMAND FindElement {
+   "using": "link text",
+   "value": "Дроны с камерой"
+}
+[1611397697.757][INFO]: Waiting for pending navigations...
+[1611397697.757][INFO]: Done waiting for pending navigations. Status: ok
+[1611397697.828][INFO]: Waiting for pending navigations...
+[1611397697.828][INFO]: Done waiting for pending navigations. Status: ok
+[1611397697.828][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Дроны с камерой"}
+  (Session info: chrome=87.0.4280.141)
+[1611397698.035][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] COMMAND FindElement {
+   "using": "link text",
+   "value": "Дроны с камерой"
+}
+[1611397698.035][INFO]: Waiting for pending navigations...
+[1611397698.036][INFO]: Done waiting for pending navigations. Status: ok
+[1611397698.114][INFO]: Waiting for pending navigations...
+[1611397698.115][INFO]: Done waiting for pending navigations. Status: ok
+[1611397698.115][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Дроны с камерой"}
+  (Session info: chrome=87.0.4280.141)
+[1611397698.320][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1611397698.321][INFO]: Waiting for pending navigations...
+[1611397698.321][INFO]: Done waiting for pending navigations. Status: ok
+[1611397698.345][INFO]: Waiting for pending navigations...
+[1611397698.346][INFO]: Done waiting for pending navigations. Status: ok
+[1611397698.346][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] RESPONSE ExecuteScript "\u003Chtml lang=\"ru\" class=\"font-marketsans\">\u003C!--\u003C![endif]-->\u003Chead>\u003Cstyle>\n    .font-marketsans body {\n        font-family: \"Market Sans\", Arial, sans-serif;\n    }\n\u003C/style>\u003Cscript>\n    (function() {\n   ..."
+[1611397698.402][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] COMMAND Screenshot {
+
+}
+[1611397698.402][INFO]: Waiting for pending navigations...
+[1611397698.403][INFO]: Done waiting for pending navigations. Status: ok
+[1611397698.788][INFO]: Waiting for pending navigations...
+[1611397698.789][INFO]: Done waiting for pending navigations. Status: ok
+[1611397698.789][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAB4AAAAPJCAYAAADzujVxAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3XtYVPXeN/43HkLNxEOMIh4YU+/2diRB8lQeonRqP5EHEtsSopL2+5WPh3BvvPOsUNKWPNzWc6uhImGKkaI92WgRmikZiuJ411Zr0ERw8IBmnkDm+WOtmVlrZ..."
+[1611397698.862][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] COMMAND Quit {
+
+}
+[1611397698.898][INFO]: [b8d129e1d274fa08f867e163b2af0ae5] RESPONSE Quit
